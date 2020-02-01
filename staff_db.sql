@@ -34,9 +34,6 @@ INSERT INTO employee (first_name, last_name, role_id, manager_id) values ('Mark'
 INSERT INTO employee (first_name, last_name, role_id, manager_id) values ('Lewis', 'Carroll', 'Engineer', null);
 INSERT INTO employee (first_name, last_name, role_id, manager_id) values ('Andre', 'Asselin', 'Developer', 'Lead Developer');
 
-INSERT INTO dept (title, employeeId) values ('Pride and Prejudice', 1);
-INSERT INTO staff (title, employeeId) values ('Emma', 1);
-
 SELECT * FROM dept;
 SELECT * FROM roles;
 SELECT * FROM employee;
